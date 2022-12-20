@@ -4,7 +4,7 @@ btnSubmit.addEventListener("click", Extras);
 btnSubmit.addEventListener("click", Subtotal);
 
 let btnSubmit2 = document.getElementById("placeorder");
-btnSubmit2.addEventListener("click",Submit);
+btnSubmit2.addEventListener("click",Button);
 
 let extras=0;
 
@@ -108,7 +108,8 @@ function Subtotal(){
     document.getElementById("x11").innerText=subtotal;
 }
 
-function Submit(){
+function Button(){
+    console.log("jsdhaj")
     let time1=document.getElementById("time1");
     let time2=document.getElementById("time2");
     let time3=document.getElementById("time3");
